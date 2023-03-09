@@ -1,13 +1,14 @@
 body {
   overflow-x: hidden;
-  height: 100vh;
-}
-
-.main {
   position: absolute;
+  height: 100vh;
   width: 100vw;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* top bar */
@@ -110,171 +111,147 @@ body {
   width: 500px;
   font-size: large;
 }
-.sec {
-  margin-top: 700px;
-  height: 100vh;
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.portoflio {
-  font-size: xx-large;
+.sec-title {
   color: #091e42;
-  margin-left: 100px;
+  font-size: xx-large;
+  margin-top: 30px;
 }
 
-.youtube {
-  margin-left: 40px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #6495ed;
-  width: 800px;
-  display: inline-block;
-  margin-top: 50px;
-}
-.secleft {
-  display: inline-block;
-  margin-left: 20px;
-  background-color: red;
+.project-1 {
+  display: flex;
+  margin-top: 40px;
+  gap: 50px;
 }
 
-.text {
-  width: 300px;
+.genshin-photo {
+  width: 45vw;
+  object-fit: cover;
+  border: 10px solid lightblue;
+}
+
+.project-1text {
+  width: 350px;
+  color: black;
+}
+
+.about-genshin {
   font-size: x-large;
 }
 
 .html {
-  border-style: solid;
-  width: 50px;
-  text-align: center;
-  border-width: 1px;
+  font-size: medium;
+  border: 2px solid;
   display: inline-block;
-  height: 25px;
+  text-align: center;
+  width: 45px;
 }
 
 .CSS {
-  border-style: solid;
-  width: 50px;
-  text-align: center;
-  border-width: 1px;
+  margin-left: 10px;
+  font-size: medium;
+  border: 2px solid;
   display: inline-block;
-  margin-left: 7px;
-  height: 25px;
+  text-align: center;
+  width: 45px;
 }
 
 .javascript {
-  border-style: solid;
-  width: 80px;
-  text-align: center;
-  border-width: 1px;
+  margin-left: 10px;
+  font-size: medium;
+  border: 2px solid;
   display: inline-block;
-  margin-left: 7px;
-  height: 25px;
+  text-align: center;
+  width: 75px;
 }
 
-.button1 {
-  color: white;
-  background-color: #f55800;
-  border-radius: 10px;
-  height: 50px;
-  text-decoration: none;
-
-  font-size: large;
-  font-style: italic;
-  margin-top: 30px;
+.api {
+  margin-left: 10px;
+  font-size: medium;
+  border: 2px solid;
   display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.btm {
+  display: block;
+  background-color: #f55800;
+  color: white;
+
+  border-radius: 10px;
+  border: 2px solid;
+  width: fit-content;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.project-2 {
+  display: flex;
+  margin-top: 40px;
+  gap: 50px;
 }
 
 .to-do {
-  border-style: solid;
-  margin-left: 100px;
-  margin-right: 660px;
-  border-color: #6495ed;
-  background-color: #6495ed;
-  border-width: 10px;
-  display: inline-block;
-  height: 560px;
+  width: 45vw;
+  object-fit: cover;
+  border: 10px solid lightblue;
 }
 
-.to-do-text {
-  color: white;
+.project-2text {
+  width: 350px;
+  color: black;
+  margin-left: 200px;
 }
 
-.about-to-do {
-  font-size: x-large;
-}
-
-.html1 {
-  border-style: solid;
-  width: 50px;
-  text-align: center;
-  border-width: 1px;
-  display: inline-block;
-  height: 25px;
-  margin-left: 15px;
-  margin-top: 0%;
-}
-
-.CSS1 {
-  border-style: solid;
-  width: 50px;
-  text-align: center;
-  border-width: 1px;
-  display: inline-block;
-  margin-left: 7px;
-  height: 25px;
-}
-
-.javascript1 {
-  border-style: solid;
-  width: 80px;
-  text-align: center;
-  border-width: 1px;
-  display: inline-block;
-  margin-left: 7px;
-  height: 25px;
-}
-
-.card1 {
-  background-color: #f55800;
-  margin-left: 100px;
-  width: 575px;
-  height: 50px;
-  font-size: large;
-  color: white;
-}
-
-.about-me {
+.third {
   background-color: black;
-
-  height: 100vh;
-  width: 100%;
 }
 
-.title1 {
-  color: #f55800;
-  margin-left: 100px;
-  height: 50px;
-  font-size: xx-large;
+.about-team {
   margin-top: 100px;
-  background-color: white;
-}
-
-.about-me-text {
   color: white;
-  margin-right: 695px;
   margin-left: 100px;
-  font-size: x-large;
 }
 
 .img {
-  position: absolute;
-  right: 0;
-  top: 2050px;
+  margin-top: 100px;
+  margin-left: 200px;
+  height: 350px;
 }
 
-.button2 {
-  background-color: #f55800;
+.fourth {
+  background-color: black;
+  margin: 0;
+}
+
+.language {
+  color: #f55800;
+  display: inline;
+}
+.bar {
+  margin-left: 100px;
   color: white;
-  font-size: x-large;
-  margin-left: 150px;
+  width: 1150px;
   margin-top: 50px;
+}
+
+.footer {
+  color: white;
+  margin-top: 0px;
+
+  list-style-type: none;
 }
