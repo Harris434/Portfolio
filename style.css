@@ -213,18 +213,20 @@ body {
 
 .third {
   background-color: black;
+  height: 500px;
 }
 
 .about-team {
-  margin-top: 100px;
+  padding: 50px;
   color: white;
-  margin-left: 100px;
+  text-align: center;
 }
 
 .img {
   margin-top: 100px;
   margin-left: 200px;
   height: 350px;
+  z-index: -5;
 }
 
 .fourth {
@@ -237,10 +239,10 @@ body {
   display: inline;
 }
 .bar {
-  margin-left: 100px;
+  margin-left: 200px;
   color: white;
-  width: 1150px;
-  margin-top: 50px;
+  width: 900px;
+  margin-top: 0px;
 }
 
 .footer {
@@ -268,4 +270,10 @@ body {
 
 .color {
   background-color: white;
+}
+
+.about-12 {
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 270px;
 }
